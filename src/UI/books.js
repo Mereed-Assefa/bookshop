@@ -2,10 +2,15 @@ import dertogadaCover from "../images/dertogada.jpeg";
 export default function Books() {
   return (
     <div>
-      <div id="book-holder">
+      <div className="book-holder">
         <div id="book-section">
           <div className="book-image">
-            <img src={dertogadaCover} />
+            <div>
+              <img src={dertogadaCover} />{" "}
+            </div>
+            <div>
+              <span>This is a book qh sfdg ff sd ateh rha </span>
+            </div>
           </div>
 
           <div className="book-info">
@@ -17,9 +22,14 @@ export default function Books() {
             </div>
           </div>
         </div>
-        <div id="book-section">
+        <div className="book-section">
           <div className="book-image">
-            <img src={dertogadaCover} />
+            <div>
+              <img src={dertogadaCover} />{" "}
+            </div>
+            <div>
+              <span>This is a book qh sfdg ff sd ateh rha </span>
+            </div>
           </div>
 
           <div className="book-info">
@@ -32,11 +42,18 @@ export default function Books() {
           </div>
         </div>
 
-        <div id="book-section">
+        <div className="book-section">
           <div className="book-image">
-            <img src={dertogadaCover} />
+            <div>
+              <img src={dertogadaCover} />{" "}
+            </div>
+            <div>
+              <span>
+                This is a book qh sfdg ff htdagdbhs adg ah sr ajt ah aeh aeh sd
+                ateh rha ga{" "}
+              </span>
+            </div>
           </div>
-
           <div className="book-info">
             <div className="book-title">
               <h3>Dertogada</h3>
