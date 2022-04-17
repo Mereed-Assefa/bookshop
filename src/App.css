@@ -74,3 +74,14 @@ margin-top: 250px;
     flex-basis: 0;
  
 }
+.book-card{
+  display: flex;
+  
+}
+.card-media{
+  padding: 8px;
+}
+#book-btn:hover{
+  background-color: lightseagreen;
+  color: white;
+}
