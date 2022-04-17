@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import dertogadaCover from "../images/dertogada.jpeg";
 
-export default function MediaCard() {
+export default function MediaCard({ id, title, author, detail, cover }) {
   return (
     <Card sx={{ maxWidth: 345 }} className="card-media">
       <CardMedia
@@ -19,11 +19,10 @@ export default function MediaCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Dertogada -Yisake Worku
+          {title}-{author}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          A book written by Yismake Worku. A story of a modern city under the
-          island of lake tana
+          {detail}
         </Typography>
       </CardContent>
       <CardActions>
