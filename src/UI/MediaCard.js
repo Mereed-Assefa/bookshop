@@ -17,12 +17,15 @@ export default function MediaCard({ id, title, author, detail, cover }) {
         image={dertogadaCover}
         alt="green iguana"
       />
+
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {title}-{author}
+        <Typography gutterBottom variant="h6" component="div">
+          Dertogada <br />
+          <span className="book-author">Yismake Worku</span>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {detail}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus
+          vehicula ligula sit amet convallis
         </Typography>
       </CardContent>
       <CardActions>
