@@ -21,11 +21,11 @@ export default function MediaCard({ id, title, author, detail, cover }) {
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
           Dertogada <br />
-          <span className="book-author">Yismake Worku</span>
+          <span className="book-author">Yismake Worku </span>
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus
-          vehicula ligula sit amet convallis
+          vehicula ligula sit amet convallis hhh gg
         </Typography>
       </CardContent>
       <CardActions>
