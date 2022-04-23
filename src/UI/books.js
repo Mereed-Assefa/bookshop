@@ -9,7 +9,7 @@ export default function Books() {
               <img src={dertogadaCover} />{" "}
             </div>
             <div>
-              <span>This is a book qh sfdg ff sd ateh rha </span>
+              <span>This is a book qh sfdg ggg ss ff sd ateh rha </span>
             </div>
           </div>
 
