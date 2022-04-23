@@ -20,7 +20,7 @@ const books = [
     title: "Dertogada",
     author: "Yismahak",
     detail:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus vehicula ligula sit amet convallis. Curabitur lorem ipsum, maximus eu risus sit amet, dapibus tempor tortor. In scelerisque in ipsum eget viverra. Etiam in orci eget quam tincidunt lacinia id eget risus. Aliquam maximus luctus nulla at condimentum. Vivamus facilisis ac justo ut luctus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus vehicula ligula sit amet convallis.  ggg Curabitur lorem ipsum, maximus eu risus sit amet, dapibus tempor tortor. In scelerisque in ipsum eget viverra. Etiam in orci eget quam tincidunt lacinia id eget risus. Aliquam maximus luctus nulla at condimentum. Vivamus facilisis ac justo ut luctus.",
     cover: "dertogada.jpeg",
   },
 ];
